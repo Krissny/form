@@ -71,10 +71,7 @@ label{
 }
 
 footer{
-    margin-top: 10px;
-    margin-bottom: 7px;
-    margin-left: 30%;
-    padding: auto;
+  text-align: center;
     color: rgba(232, 232, 245,60%);
     text-decoration: underline;
 }
