@@ -1,0 +1,80 @@
+body{
+    background-image: url(../img/pexels-felix-mittermeier-956999.jpg);
+    font-size: 16px;
+    font-family: Tahoma;
+    color: azure;
+    background-size: cover;
+    margin: 0;
+    
+    
+}
+
+.desc{
+    font-style: italic;
+}
+div{
+  text-align: center;
+    
+}
+
+
+fieldset{
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f
+}
+h1{
+    padding-bottom: -50%;
+}
+
+h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  form{
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    background-color: rgba(27, 32, 64, 80%);
+    margin: 0 auto;
+    padding: 15px;
+    
+  }
+  input{
+    display: block;
+  }
+  
+  input[type="submit"]{
+    display: block;
+    width: 100%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #202053;
+    border-color: white;
+    min-width: 300px;
+    color: white;
+  }
+  input,textarea, select{
+      width: 100%;
+  }
+
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+
+
+label{
+    display: block;
+    margin: 0.5rem;
+}
+
+footer{
+    margin-top: 10px;
+    margin-bottom: 7px;
+    margin-left: 30%;
+    padding: auto;
+    color: rgba(232, 232, 245,60%);
+    text-decoration: underline;
+}

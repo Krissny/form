@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Survey Form</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+
+   <body>
+    <h1 id ="title">Tech Survey</h1>
+    <div>
+    <img src="../img/rocket-ship.png" width="90" height="100">
+   </div>
+    <p  id = "description">This survey is done to collect opinion of  tech enthusiast students.</p>
+    <form id ="surveyform" action="results.html" method="GET">
+      <fieldset class="inline" >
+         <label >Name: <input name="name" id ="name" type="text" required></label>
+         <label >Email: <input name ="email" id="email" type="email" required placeholder="Dont worry we won't spam you"></label>
+         <label >Age(optional): <input name="Age" id="number" type="number"  min="13" max="120"></label>
+      </fieldset>
+      <fieldset >
+         <label>Your College<select name="college" id="college" required>
+            <option>select one</option>
+            <option>DTU</option>
+            <option>NSUT</option>
+            <option>IIT Delhi</option>
+            <option>IPU</option>
+            <option>Other</option>
+         </select></label>
+
+      </fieldset>
+      <fieldset >
+         <label>According to you which technology would grow in upcoming years?
+            <select id='technology' required >
+               <option>(select one)</option>
+               <option>Biotechnology</option>
+               <option>Artificial Intelligence</option>
+               <option>Block Chain</option>
+               <option>Aerospace engineering</option>
+            </select>
+         </label>
+            <label >Any other:<input name="technology" id='technology' type="text" name="technology" placeholder="if not listed above"></label>
+         
+         <label >Tell us something about you: <textarea name="bio" id="bio" placeholder="I am pursuing my graduation in...." name="bio" rows="3" cols="30"></textarea></label>
+         <label><input type="submit"></label>
+      </fieldset>
+    </form>
+    <footer>Contact us at - kk124572@outlook.com</footer>
+   </body>
+    
+</html>
